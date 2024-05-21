@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "url": "https://chrisbucket217.s3.us-east-2.amazonaws.com/Release1.0/cellanome-folder-1.0.0.zip",
-    "hash": "c8218609d09288e17e0b13078bfe810e0e6bc6cb33dae1e5b539e3f7b30e599e",
+    "hash": "",
   "extract_dir": ".cellanome",
   "post_install": [
        "xcopy /E /I /Q /Y \"$dir\" \"$env:USERPROFILE\\.cellanome\" "
