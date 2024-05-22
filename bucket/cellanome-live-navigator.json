@@ -7,6 +7,6 @@
   "installer": {
       "file": "Flowcell Live App Setup 1.0.1-0.3.exe",
       "args": "/S",
-      "keep": "true"
+      "keep": true
   }
 }
