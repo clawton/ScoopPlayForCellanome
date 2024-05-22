@@ -1,0 +1,11 @@
+{
+  "homepage": "https://cellanome.com/",
+  "license": "Proprietary",
+  "version": "1.0.1",
+  "url": "https://chrisbucket217.s3.us-east-2.amazonaws.com/Release1.0/live-navigator-1.0.1.zip",
+  "hash": "",
+  "installer": {
+	  "file": "Flowcell Live App Setup 1.0.1-0.3.exe",
+	  "keep": "true"
+  }
+}
