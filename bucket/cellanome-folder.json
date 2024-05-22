@@ -6,5 +6,4 @@
   "post_install": [
        "xcopy /E /I /Q /Y \"$dir\" \"$env:USERPROFILE\\.cellanome\" "
     ]
-  
 }
