@@ -3,8 +3,9 @@
   "license": "Proprietary",
   "version": "6.0.0.32034",
   "url": "https://dls-cellanome-s3.s3.amazonaws.com/Release1.0/Vimba_Win64.msi",
-  "hash": "",
+  "hash": "20d2cbf0a311110ecb207ab44852e6bf6f3fa3bc534aaeb146437038106f7017",
   "installer": {
+      "file": "Vimba_Win64.msi",
       "args": "/quiet /norestart",
       "keep": true
   }
