@@ -13,7 +13,7 @@
             "$args2 = \"/i $dir\\VimbaUSBTL_Win64.msi /quiet /norestart\"",
             "Write-Host \"Running: msiexec.exe $args2\"",
             "Start-Process msiexec.exe -ArgumentList $args2 -NoNewWindow -Wait",
-            "Set-Location \"$ProgramFiles\\Allied Vision\"",
+            "Set-Location \"$env:ProgramFiles\\Allied Vision\"",
             "pnputil /add-driver *.inf /install /subdirs",
             "cd $startDir"
         ]
