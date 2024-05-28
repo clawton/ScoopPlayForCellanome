@@ -7,7 +7,9 @@
     "installer": {
         "script": [
             "$startDir = Get-Location",
-            "Start-Process msiexec.exe -ArgumentList \"/i '$dir\\Vimba_Win64.msi' /quiet /norestart\" -NoNewWindow -Wait",
+            "$args1 = \"/i $dir\\Vimba_Win64.msi /quiet /norestart\"",
+            "Write-Host \"Running: msiexec.exe $args1\"",
+            "Start-Process msiexec.exe -ArgumentList $args1 -NoNewWindow -Wait",
             "Start-Process msiexec.exe -ArgumentList \"/i '$dir\\VimbaUSBTL_Win64.msi' /quiet /norestart\" -NoNewWindow -Wait",
             "cd $dir",
             "pnputil /add-driver *.inf /install /subdirs",
