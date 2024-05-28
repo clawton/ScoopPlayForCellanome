@@ -1,6 +1,6 @@
 {
   "version": "8.14.2",
-  "url": "https://chrisbucket217.s3.us-east-2.amazonaws.com/Release1.0/vips-dev-w64-web-8.14.2.zip",
+  "url": "https://dls-cellanome-s3.s3.amazonaws.com/Release1.0/vips-dev-w64-web-8.14.2.zip",
   "hash": "7c54be67731d20daefcb5d8e1fc66958017cdc28d0f5bf79456c2f1459852fc7",
   "extract_dir": "vips-dev-8.14",
   "post_install": [
