@@ -6,10 +6,12 @@
   "hash": "",
     "installer": {
         "script": [
+            "$startDir = Get-Location",
             "Start-Process msiexec.exe -ArgumentList \"/i '$dir\\Vimba_Win64.msi' /quiet /norestart\" -NoNewWindow -Wait",
             "Start-Process msiexec.exe -ArgumentList \"/i '$dir\\VimbaUSBTL_Win64.msi' /quiet /norestart\" -NoNewWindow -Wait",
             "cd $dir",
-            "pnputil /add-driver *.inf /install /subdirs"
+            "pnputil /add-driver *.inf /install /subdirs",
+            "cd $startDir"
         ]
     }
 }
