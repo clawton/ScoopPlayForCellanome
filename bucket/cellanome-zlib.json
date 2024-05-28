@@ -1,4 +1,6 @@
 {
+  "homepage": "https://www.zlib.net/",
+  "license": "Freeware",
   "version": "1.2.3",
   "url": "https://dls-cellanome-s3.s3.amazonaws.com/Release1.0/zlib123dllx64.zip",
   "hash": "fd324c6923aa4f45a60413665e0b68bb34a7779d0861849e02d2711ff8efb9a4",

@@ -1,4 +1,6 @@
 {
+  "homepage": "https://www.libvips.org/",
+  "license": "LGPL-2.1-or-later",
   "version": "8.14.2",
   "url": "https://dls-cellanome-s3.s3.amazonaws.com/Release1.0/vips-dev-w64-web-8.14.2.zip",
   "hash": "7c54be67731d20daefcb5d8e1fc66958017cdc28d0f5bf79456c2f1459852fc7",
