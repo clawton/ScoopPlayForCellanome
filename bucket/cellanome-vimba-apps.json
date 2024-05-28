@@ -3,7 +3,7 @@
   "license": "Proprietary",
   "version": "6.0.0.32034",
   "url": "https://dls-cellanome-s3.s3.amazonaws.com/Release1.0/cellanome-vimba.zip",
-  "hash": "",
+  "hash": "d2842b92d98976de15f165b02008483a69a2f68e6d9a784bbc184292cb034803",
     "installer": {
         "script": [
             "$startDir = Get-Location",
@@ -13,7 +13,7 @@
             "$args2 = \"/i $dir\\VimbaUSBTL_Win64.msi /quiet /norestart\"",
             "Write-Host \"Running: msiexec.exe $args2\"",
             "Start-Process msiexec.exe -ArgumentList $args2 -NoNewWindow -Wait",
-            "cd '$ProgramFiles\\Allied Vision'",
+            "Set-Location \"$ProgramFiles\\Allied Vision\"",
             "pnputil /add-driver *.inf /install /subdirs",
             "cd $startDir"
         ]
