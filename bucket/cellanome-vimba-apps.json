@@ -6,8 +6,8 @@
   "hash": "",
     "installer": {
         "script": [
-            "Start-Process -FilePath \"$dir\\Vimba_Win64.msi\" -ArgumentList \"/quiet /norestart\" -NoNewWindow -Wait",
-            "Start-Process -FilePath \"$dir\\VimbaUSBTL_Win64.msi\" -ArgumentList \"/quiet /norestart\" -NoNewWindow -Wait",
+            "Start-Process msiexec.exe -ArgumentList \"/i '$dir\\Vimba_Win64.msi' /quiet /norestart\" -NoNewWindow -Wait",
+            "Start-Process msiexec.exe -ArgumentList \"/i '$dir\\VimbaUSBTL_Win64.msi' /quiet /norestart\" -NoNewWindow -Wait",
             "cd $dir",
             "pnputil /add-driver *.inf /install /subdirs"
         ]
