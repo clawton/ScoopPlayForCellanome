@@ -1,0 +1,13 @@
+{
+  "homepage": "https://cellanome.com/",
+  "license": "Proprietary",
+  "version": "4.0.0.0",
+  "url": "https://dls-cellanome-s3.s3.amazonaws.com/Release1.0/moxa-uport-1100-series-win-11-and-win-server-2022-whql-certified-driver-v4.0.zip",
+  "hash": "",
+    "installer": {
+        "script": [
+            "$args1 = \"/SILENT\"",
+            "Start-Process $dir\\moxa-uport-1100-series-win-11-and-win-server-2022-whql-certified-driver-v4.0.exe -ArgumentList $args1 -NoNewWindow -Wait"
+        ]
+    }
+}
