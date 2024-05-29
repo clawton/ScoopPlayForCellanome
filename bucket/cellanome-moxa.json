@@ -7,7 +7,7 @@
     "installer": {
         "script": [
             "$args1 = \"/SILENT\"",
-            "Start-Process $dir\\moxa-uport-1100-series-win-11-and-win-server-2022-whql-certified-driver-v4.0.exe -ArgumentList $args1 -NoNewWindow -Wait -WindowStyle Hidden"
+            "Start-Process $dir\\moxa-uport-1100-series-win-11-and-win-server-2022-whql-certified-driver-v4.0.exe -ArgumentList $args1 -Wait -WindowStyle Hidden"
         ]
     }
 }
