@@ -2,6 +2,7 @@
   "homepage": "https://cellanome.com/",
   "license": "Proprietary",
   "version": "1.0.0",
+  "url": "https://dls-cellanome-s3.s3.amazonaws.com/README_RELEASE_1.0.0.txt",
   "depends": [
         "CellanomeBucket/cellanome_vcredist",
         "CellanomeBucket/analysis_service",
