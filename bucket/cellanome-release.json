@@ -5,6 +5,6 @@
   "url": "https://dls-cellanome-s3.s3.amazonaws.com/README_RELEASE_1.0.0.txt",
   "depends": [
         "CellanomeBucket/cellanome_vcredist",
-        "CellanomeBucket/analysis_service",
+        "CellanomeBucket/analysis_service"
     ]
 }
