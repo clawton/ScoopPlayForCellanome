@@ -1,0 +1,9 @@
+{
+  "homepage": "https://cellanome.com/",
+  "license": "Proprietary",
+  "version": "1.0.0",
+  "depends": [
+        "CellanomeBucket/cellanome_vcredist",
+        "CellanomeBucket/analysis_service",
+    ]
+}
