@@ -5,7 +5,18 @@
   "hash": "2b5204642b6477370d6b9636f024fde761d8fb791702ef782a9a0688f5533762",
   "url": "https://dls-cellanome-s3.s3.amazonaws.com/README_RELEASE_1.0.0.txt",
   "depends": [
-        "CellanomeBucket/cellanome_vcredist",
-        "CellanomeBucket/analysis_service"
+       "CellanomeBucket/cellanome_vcredist",
+       "CellanomeBucket/microscope-gui-package",
+       "CellanomeBucket/cellanome-folder",
+       "CellanomeBucket/cellanome-cudnn",
+       "CellanomeBucket/cellanome-vips",
+       "CellanomeBucket/cellanome-zlib",
+       "CellanomeBucket/cellanome-cuda-toolkit",
+       "CellanomeBucket/cellanome-wsl-instrument",
+       "CellanomeBucket/cellanome-model-weights",
+       "CellanomeBucket/analysis_service",
+       "CellanomeBucket/cellanome-live-navigator",
+       "CellanomeBucket/cellanome-vimba-apps",
+       "CellanomeBucket/cellanome-moxa"
     ]
 }
